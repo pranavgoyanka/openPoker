@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { GameplayProps } from '../interfaces'
 
 const Gameplay = ({ buyin, players, setStartGame }: GameplayProps) => {
-  const [turn, setTurn] = useState(0)
   const [winnings, setWinnings] = useState<number[]>([])
   const [totalPot, setTotalPot] = useState(0)
   const [roundWinner, setRoundWinner] = useState(-1)
@@ -10,9 +9,9 @@ const Gameplay = ({ buyin, players, setStartGame }: GameplayProps) => {
 
   useEffect(() => {
     const tempWin: number[] = []
-    players.forEach((_, index) => {
+    for (let i = 0; i < players.length; i++) {
       tempWin.push(0)
-    })
+    }
     setWinnings(tempWin)
   }, [])
 

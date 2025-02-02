@@ -1,7 +1,6 @@
-import React from 'react'
 import { LandingProps } from '../interfaces'
 
-const Landing = ({buyin, setBuyin, player, setPlayer, players, setPlayers, startGame, setStartGame}: LandingProps) => {
+const Landing = ({buyin, setBuyin, player, setPlayer, players, setPlayers, setStartGame}: LandingProps) => {
   return (
     <>
 

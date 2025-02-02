@@ -6,7 +6,6 @@ export interface LandingProps {
   setPlayer: any,
   players: string[],
   setPlayers: any,
-  startGame: boolean,
   setStartGame: any
 }
 
