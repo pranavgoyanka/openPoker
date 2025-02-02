@@ -5,3 +5,9 @@ Open Poker is a high-stakes and speedy variant of traditional poker where all ca
 ## Trivia
 
 I invented this game as a silly activity to kill time with a few friends. Given the fast paced nature of this variant of poker, it's was incredibily difficult to keep track of scores mentally, which is what led to the birth of this app.
+
+# Screenshots
+
+<img src="./readme_assets/landing.png" width="300">
+
+<img src="./readme_assets/gameplay.png" width="300">
