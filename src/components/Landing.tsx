@@ -8,7 +8,7 @@ const Landing = ({buyin, setBuyin, player, setPlayer, players, setPlayers, setSt
       <span className='w-24'>
         {"Buy In:"}
       </span>
-      <input 
+      <input
         className='flex-1 m-2 p-0.5 outline-2 rounded'
         type='text'        
         placeholder={`Enter ${"Buy In"}`}
@@ -75,7 +75,7 @@ const Landing = ({buyin, setBuyin, player, setPlayer, players, setPlayers, setSt
       </div>
 
       <button 
-        className='mt-[20px] outline-2 p-2 rounded bg-green-300 text-xl'
+        className=' mt-[20px] outline-2 p-2 rounded bg-green-300 text-xl'
         onClick={() => {
           players.length > 1
           ? setStartGame(true)
