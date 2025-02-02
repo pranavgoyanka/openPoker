@@ -28,12 +28,18 @@ function App() {
 
   return (
     <>
-      <h1 className='font-bold'>Full On Juwaari</h1>
+      <h1 className='font-bold'>Open Poker</h1>
       {
-        startGame 
-        ? <Gameplay {...gameplayProps} />
-        : <Landing {...landingProps} />
+        startGame
+          ? <Gameplay {...gameplayProps} />
+          : <Landing {...landingProps} />
       }
+
+      <footer className="py-4 mt-10 overline">
+        <div className="container mx-auto justify-between items-center px-4">
+          <p className="text-sm">Made with ❤️ by Pranav Goyanka</p>
+        </div>
+      </footer>
     </>
   )
 }
